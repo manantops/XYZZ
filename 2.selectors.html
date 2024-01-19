@@ -1,0 +1,81 @@
+<!-- 
+1.universal  *
+2.id  #
+3.class .
+4.element  no symbol 
+5.group element P,h1
+ 
+6.child selector  >             it all p tag inside the div tag , it does not take the child element (div,sectiob,b i)
+7.adajacent selectors DIV + P   it take first after div
+8.disandent selector div p      it take all p tag inside the div tag 
+9.general selectors ~           it take all after div 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* h1,p {
+        color: red;
+        background-color: yellow;
+     }
+     .heading2 {
+        color: aqua;
+        background-color: black;
+     } */
+
+
+        div  p {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <h1 >I AM HEADING</h1>
+    <h1 class="heading2">I AM HEADING</h1>
+    <h1>I AM HEADING</h1>
+    <h1>I AM HEADING</h1>
+
+    <P class="heading2">i am heading</P>
+    <P>i am heading</P>
+    <P class="heading2">i am heading</P> -->
+
+
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi porro nihil ipsum inventore a cumque ipsam
+            tempore, natus nam incidunt.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi porro nihil ipsum inventore a cumque ipsam
+            tempore, natus nam incidunt.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi porro nihil ipsum inventore a cumque ipsam
+            tempore, natus nam incidunt.</p>
+        <section>
+            <p>I AM IN SECTION</p>
+        </section>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi porro nihil ipsum inventore a cumque ipsam
+            tempore, natus nam incidunt.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi porro nihil ipsum inventore a cumque ipsam
+            tempore, natus nam incidunt.</p>
+    </div>
+
+    <P>I AM OUT OF DIV</P>
+    <P>I AM OUT OF DIV</P>
+    <P>I AM OUT OF DIV</P>
+    <P>I AM OUT OF DIV</P>
+    <P>I AM OUT OF DIV</P>
+    <P>I AM OUT OF DIV</P>
+</body>
+
+</html>
